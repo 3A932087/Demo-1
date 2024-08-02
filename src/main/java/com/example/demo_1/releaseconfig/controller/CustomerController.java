@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/customer")
 public class CustomerController {
     // local chanage
+    // github
     @GetMapping
     public String getAllCustomer(){
         return "getAllUsers";
