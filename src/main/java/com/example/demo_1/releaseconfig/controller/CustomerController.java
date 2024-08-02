@@ -9,6 +9,7 @@ public class CustomerController {
     // local chanage
     // github
     // 2024.08.02 05:14
+    // 衝突演示
     @GetMapping
     public String getAllCustomer(){
         return "getAllUsers";
