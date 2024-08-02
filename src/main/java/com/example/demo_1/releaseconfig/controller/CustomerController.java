@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerController {
     // local chanage
     // github
+    // 2024.08.02 05:14
     @GetMapping
     public String getAllCustomer(){
         return "getAllUsers";
     }
     @GetMapping("/{id}")
     public String getAllCustomer(@PathVariable Long id){
-        return "getAllUsers id";
+        return "getAllUsers id：" + id;
     }
     @PostMapping
     public String postCustomer(){
