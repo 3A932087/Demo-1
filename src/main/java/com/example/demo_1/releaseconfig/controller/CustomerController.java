@@ -6,14 +6,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/customer")
 public class CustomerController {
-    // local chanage
-    // github
-    // 2024.08.02 05:14
-    // 衝突演示-local
-    // 衝突演示
-    // 衝突測試-local
-    // 製造衝突
-    // 衝突測試-origin
     @GetMapping
     public String getAllCustomer(){
         return "getAllUsers";
