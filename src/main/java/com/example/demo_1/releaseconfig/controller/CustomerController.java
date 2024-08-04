@@ -12,6 +12,7 @@ public class CustomerController {
     // 衝突演示-local
     // 衝突演示
     // 衝突測試-local
+    // 衝突測試-origin
     @GetMapping
     public String getAllCustomer(){
         return "getAllUsers";
